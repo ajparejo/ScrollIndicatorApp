@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sideContainer {
+  background-color: #0511FF;
+  height: 100vh;
+  width: 175px;
+  position: fixed;
+  display: flex;
+  justify-content: end;
+  z-index: 1;
+}
+
+.progressContainer {
+  width: 18px;
+  height: 100vh;
+  background-color: #7f86fc;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 100vw;
+  gap: 17px;
+}
+
+.progressBar {
+  width: 18px;
+  background-color: #00056d;
+  transition: ease 0.5s;
+}
+
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
